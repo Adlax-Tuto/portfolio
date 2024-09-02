@@ -2,6 +2,8 @@ import React from "react";
 import { Wrapper } from "../css/section-style";
 
 const About = () => {
+	console.log("Test");
+
 	return (
 		<Wrapper id="about">
 			<div className="relative-container">
