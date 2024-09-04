@@ -1,24 +1,17 @@
-import insects from "./images/insect-8211593_1280.resized.webp";
-import lavender from "./images/lavender-8075280_1280.resized.webp";
-import sky from "./images/sky-2815020_1280.resized.webp";
+import spaceProject from "./images/SpaceProject.webp";
+import stocksProject from "./images/StocksProject.webp";
 
 export const projects = [
 	{
-		title: "insects projects",
-		imageSrc: insects,
-		url: "https://etc1.etc1",
-		desc: "Projects made with React 18, based on this API, doing this and that",
+		title: "Space News Channel",
+		imageSrc: spaceProject,
+		url: "https://adlax-space.netlify.app/apod",
+		desc: "Project made with React 18, based on NASA and Datastro APIs. Website exploring some space related topics.",
 	},
 	{
-		title: "sky projects",
-		imageSrc: sky,
-		url: "https://etc2.etc2",
-		desc: "Projects made with React 18, based on this API, doing this and that",
-	},
-	{
-		title: "lavender projects",
-		imageSrc: lavender,
-		url: "https://etc3.etc3",
-		desc: "Projects made with React 18, based on this API, doing this and that",
+		title: "Stock Market Dashboard",
+		imageSrc: stocksProject,
+		url: "https://adlax-stocks.netlify.app/forex",
+		desc: "Project made with React 18 and Redux ToolKit, based on this 12Data API. Exploring stocks, indices, and forex.",
 	},
 ];
